@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturnValueNotUsedAnalyzer", "ReturnValueNotUsedAnalyzer\ReturnValueNotUsedAnalyzer\ReturnValueNotUsedAnalyzer.csproj", "{8AF0C6C9-2A17-4055-8FE0-84355FB32267}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9903B7C7-0B6B-4F75-8CFB-66ED633C9708}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturnValueNotUsedAnalyzer.Test", "ReturnValueNotUsedAnalyzer\ReturnValueNotUsedAnalyzer.Test\ReturnValueNotUsedAnalyzer.Test.csproj", "{1C3B39B9-819C-4150-8D58-88BFBA401C17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturnValueNotUsedAnalyzer.Vsix", "ReturnValueNotUsedAnalyzer\ReturnValueNotUsedAnalyzer.Vsix\ReturnValueNotUsedAnalyzer.Vsix.csproj", "{367FE567-4346-46E3-AD12-60361CFFA4F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AF0C6C9-2A17-4055-8FE0-84355FB32267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF0C6C9-2A17-4055-8FE0-84355FB32267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF0C6C9-2A17-4055-8FE0-84355FB32267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF0C6C9-2A17-4055-8FE0-84355FB32267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C3B39B9-819C-4150-8D58-88BFBA401C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C3B39B9-819C-4150-8D58-88BFBA401C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C3B39B9-819C-4150-8D58-88BFBA401C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C3B39B9-819C-4150-8D58-88BFBA401C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{367FE567-4346-46E3-AD12-60361CFFA4F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367FE567-4346-46E3-AD12-60361CFFA4F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367FE567-4346-46E3-AD12-60361CFFA4F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367FE567-4346-46E3-AD12-60361CFFA4F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
