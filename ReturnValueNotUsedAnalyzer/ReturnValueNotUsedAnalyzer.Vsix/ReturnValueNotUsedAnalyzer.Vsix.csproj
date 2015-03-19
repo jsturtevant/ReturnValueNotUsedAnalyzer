@@ -53,7 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ReturnValueNotUsedAnalyzer\ReturnValueNotUsedAnalyzer.csproj">
-      <Project>{8AF0C6C9-2A17-4055-8FE0-84355FB32267}</Project>
+      <Project>{B982BCD8-0EB1-42C5-8ECA-D682CC33FFB7}</Project>
       <Name>ReturnValueNotUsedAnalyzer</Name>
     </ProjectReference>
   </ItemGroup>

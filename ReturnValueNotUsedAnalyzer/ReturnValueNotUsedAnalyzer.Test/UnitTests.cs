@@ -24,7 +24,7 @@ namespace ReturnValueNotUsedAnalyzer.Test
         public void VerifyNoDiagnosticsWithMethodResultUsed()
         {
             string test = Properties.Resources.functionThatUsesReturnResult;
-
+         
             VerifyCSharpDiagnostic(test);
         }
 
