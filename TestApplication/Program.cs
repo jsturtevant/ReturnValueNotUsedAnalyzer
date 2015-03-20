@@ -10,8 +10,14 @@ namespace TestApplication
             Console.WriteLine(enterprise.ShipName);
 
             SpaceShipFactory.CreateSpaceship(ShipTypes.USSndromeda);
-
+            CallMe();
+            var s = CallMe();
             Console.ReadLine();
+        }
+
+        private static string CallMe()
+        {
+            throw new NotImplementedException();
         }
     }
 
